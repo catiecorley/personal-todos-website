@@ -1,0 +1,30 @@
+/* Author: Catie Corley */
+
+li:hover{
+    color: green;
+}
+
+.deleteButton:hover {
+    font-weight: 500;
+    color:red;
+}
+
+#listoftodos{
+    position: relative;
+    left: 30%;
+    width: 40%;
+    height: 800px;
+    background-color: #C0C5C1;
+}
+ul{
+    list-style-type:none;
+}
+
+
+.header{
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3e8250;
+    text-align: center;
+    top: 20px;
+}

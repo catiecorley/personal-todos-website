@@ -1,0 +1,37 @@
+/* Author: Catie Corley */
+
+li{
+    position: relative;
+    color: #505050	;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    top: 40px;
+    font-size: 20px;
+    left: -30px;
+
+}
+
+.deleteButton{
+    position: relative;
+    text-align: right;
+    float: right;
+}
+
+
+@media (max-width: 768px) {
+    .deleteButton {
+  float: none;
+        margin: 5px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    li {
+      font-size: 16px;
+      margin: 0px;
+      left: -40px;
+      padding: 0px;
+
+    }
+  }
